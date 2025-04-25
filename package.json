@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "asisten-sukses-terintegrasi",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "Pendamping holistik untuk kesuksesan dalam bisnis, pengembangan diri, dan spiritualitas",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -10,9 +10,11 @@
         "start": "vite --host"
     },
     "dependencies": {
+        "@heroicons/react": "^2.1.1",
         "@sentry/browser": "^8.41.0",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.22.3"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
