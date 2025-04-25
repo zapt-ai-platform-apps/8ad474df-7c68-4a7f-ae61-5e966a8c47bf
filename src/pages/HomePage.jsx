@@ -2,7 +2,7 @@ import React from 'react';
 import ModuleCard from '../components/common/ModuleCard';
 import { 
   MegaphoneIcon, 
-  BrainIcon, 
+  AcademicCapIcon, 
   HeartIcon, 
   RocketLaunchIcon, 
   LightBulbIcon, 
@@ -21,7 +21,7 @@ export default function HomePage() {
     {
       title: 'Pengembangan Diri (STIFIn)',
       description: 'Kenali mesin kecerdasan Anda dan cara terbaik untuk mengoptimalkannya.',
-      icon: <BrainIcon className="h-6 w-6" />,
+      icon: <AcademicCapIcon className="h-6 w-6" />,
       path: '/stifin',
       color: 'purple'
     },
